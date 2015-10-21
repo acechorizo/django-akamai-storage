@@ -1,4 +1,4 @@
-from akamai.storage import AkamaiNetStorage
+from akamai_storage.storage import AkamaiNetStorage
 from django.conf import settings
 from django.core.exceptions import ImproperlyConfigured
 from django.core.files import storage as django_storage

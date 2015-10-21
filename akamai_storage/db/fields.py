@@ -1,6 +1,6 @@
 from __future__ import unicode_literals
-from akamai.forms.fields import AkamaiFilePathField as AkamaiFilePathFormField
-from akamai.utils import get_storage_class
+from akamai_storage.forms.fields import AkamaiFilePathField as AkamaiFilePathFormField
+from akamai_storage.utils import get_storage_class
 from django.core import exceptions
 from django.db.models.fields import TextField
 from django.utils.translation import ugettext_lazy as _

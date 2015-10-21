@@ -2,8 +2,8 @@ from __future__ import unicode_literals
 
 import re
 
-from akamai.storage import AkamaiNetStorage
-from akamai.utils import get_storage_class
+from akamai_storage.storage import AkamaiNetStorage
+from akamai_storage.utils import get_storage_class
 from django.core.exceptions import ImproperlyConfigured
 from django.core.files import storage as django_storage
 from django.forms import fields

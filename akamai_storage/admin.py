@@ -1,5 +1,5 @@
 from django.contrib import admin
-from akamai.models import FileStorage, FileSystem, File, Directory
+from akamai_storage.models import FileStorage, FileSystem, File, Directory
 from polymorphic_tree.admin import PolymorphicMPTTParentModelAdmin, PolymorphicMPTTChildModelAdmin
 
 
