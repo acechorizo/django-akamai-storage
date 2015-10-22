@@ -26,7 +26,7 @@ def get_storage_class(key):
         # Try to setup the storage
         config = settings.FILE_STORAGES[key]
 
-        if config['FILE_STORAGE'] != 'akamai.storage.AkamaiNetStorage':
+        if config['FILE_STORAGE'] != 'akamai_storage.storage.AkamaiNetStorage':
             raise
 
         storage = storages[key] = AkamaiNetStorage(file_storage_key=key)
